@@ -87,7 +87,6 @@ class _MainuiState extends State<Mainui> {
               child: Container(
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.black54,
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Center(
