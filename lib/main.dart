@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:official_gpt/View/Login.dart';
+import 'package:official_gpt/View/MainUi.dart';
+import 'package:official_gpt/View/forgotpassword.dart';
 import 'package:provider/provider.dart';
 
 import 'Controller/Providers/LoginProvider.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:Login(),
+      home:Mainui(),
     );
   }
 }
